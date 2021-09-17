@@ -1,4 +1,5 @@
 import React from 'react';
+import './homepage.styles.scss';
 
 // homepage is a functional component
 // we do not need any life-cycle methods here
