@@ -14,4 +14,4 @@
 - When we **_ship and build_** our code, most of these modules won't make it through. Only the ones that are needed for the app stay at the end.
 - **Dependency management** between libraries is a crucial issue.
   - _React scripts vs babel-jest version conflict_ => it's an open issue in react git repository.
-- `package-lock.json` => allows us to have consistent installations of the same app across different platforms.
+- `package-lock.json` => allows us to have consistent installations of the same app across different platforms. Knows _which dependencies (version) are compatible_ with each other.
