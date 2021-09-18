@@ -15,3 +15,4 @@
 - **Dependency management** between libraries is a crucial issue.
   - _React scripts vs babel-jest version conflict_ => it's an open issue in react git repository.
 - `package-lock.json` => allows us to have consistent installations of the same app across different platforms. Knows _which dependencies (version) are compatible_ with each other.
+- `serviceWorker.js` => pre-build with `create-react-app`. It's used for making **_progressive web apps_**.
