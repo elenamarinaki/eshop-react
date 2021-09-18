@@ -9,3 +9,6 @@
 ### Project Files + Modules 📁
 
 - The `@jest` (inside _node_modules_) files are for testing.
+- React tries to create an _IDE environment_: it does linting, testing, and everything else that is provided inside `node_modules`.
+- The `node_modules` are used only during the **_development stage_**.
+- When we **_ship and build_** our code, most of these modules won't make it through. Only the ones that are needed for the app stay at the end.
