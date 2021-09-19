@@ -16,3 +16,8 @@
   - _React scripts vs babel-jest version conflict_ => it's an open issue in react git repository.
 - `package-lock.json` => allows us to have consistent installations of the same app across different platforms. Knows _which dependencies (version) are compatible_ with each other.
 - `serviceWorker.js` => pre-build with `create-react-app`. It's used for making **_progressive web apps_**.
+
+### Components vs Pages 🧱 📄
+
+- `Components` refers to any _reusable_ component.
+- `Pages` refers to any component that is used once.
