@@ -2,6 +2,8 @@ import React from 'react';
 
 import MenuItem from '../menu-item/menu-item.component';
 
+import './directory.styles.scss';
+
 // Directory is a class component, it is preoccupied with the states of the menu-items
 class Directory extends React.Component {
   constructor() {
@@ -48,8 +50,8 @@ class Directory extends React.Component {
   render() {
     return (
       <div className='directory-menu'>
-        {this.state.sections.map({title, imageUrl, id} => (
-          <MenuItem key={id} title={title}></MenuItem>
+        {this.state.sections.map(({ title, imageUrl, id }) => (
+          <MenuItem key={id} title={title} imageUrl={imageUrl}></MenuItem>
         ))}
       </div>
     );

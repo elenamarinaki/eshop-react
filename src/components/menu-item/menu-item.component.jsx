@@ -3,8 +3,13 @@ import React from 'react';
 import './menu-item.styles.scss';
 
 // destructuring the title - it's equal to writing props.title
-const MenuItem = ({ title }) => (
-  <div className='menu-item'>
+const MenuItem = ({ title, imageUrl }) => (
+  <div
+    style={{
+      backgroundImage: `url(${imageUrl})`,
+    }}
+    className='menu-item'
+  >
     <div className='content'>
       <h1 className='title'>{title}</h1>
       <span className='subtitle'>SHOP NOW</span>
