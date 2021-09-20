@@ -24,6 +24,8 @@
 
 ### Notes on Updating Packages 📦
 
+#### `NPM` or `YARN`
+
 - If there is any `.lock` file, we _remove_ it, so we can update versions:
   ```
   rm -rf yarn.lock
@@ -41,3 +43,8 @@
   ```
   npm start
   ```
+
+#### LOCK FILES 🔒
+
+- `package-lock.json` => find `react-dom` library
+  - we can check all versions are up to date
