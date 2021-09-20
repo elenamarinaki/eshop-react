@@ -21,3 +21,23 @@
 
 - `Components` refers to any _reusable_ component.
 - `Pages` refers to any component that is used once.
+
+### Notes on Updating Packages 📦
+
+- If there is any `.lock` file, we _remove_ it, so we can update versions:
+  ```
+  rm -rf yarn.lock
+  ```
+- Update all of the existent dependencies:
+  ```
+  npm update -D
+  ```
+- If vulnerabilities are found:
+  ```
+  npm audit fix
+  ```
+  And then we have to follow any commands that are suggested to us as result. The process of _auditing_ can be quite extensive.
+- Finally, we can start our project to make sure everything is working:
+  ```
+  npm start
+  ```
