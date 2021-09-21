@@ -44,7 +44,19 @@
   npm start
   ```
 
-#### LOCK FILES 🔒
+#### Lock Files 🔒
 
 - `package-lock.json` => find `react-dom` library
   - we can check all versions are up to date
+
+### Removing `node_modules` (in case accidentally uploaded 🙈)
+
+- Create `.gitignore` file.
+- add `node_modules/` to gitignore
+- run:
+  ```
+  git rm -r --cached .
+  git add .
+  git commit -m "remove gitignore files"
+  git push
+  ```
