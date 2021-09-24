@@ -72,3 +72,7 @@
 ...unlike Angular, which is a framework and provides it for us...
 
 - The browser provides **_History API_**.
+- Install router:
+  ```
+  npm add react-router-dom
+  ```
