@@ -60,3 +60,8 @@
   git commit -m "remove gitignore files"
   git push
   ```
+
+### The Birth of SPA 🍎
+
+- In today's applications, the server takes care of sending the **data only** and not how to render (or re-render) the DOM, when receiving requests.
+- This way, the same server can be used for mobile devices as well.
