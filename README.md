@@ -63,5 +63,10 @@
 
 ### The Birth of SPA 🍎
 
+- Server-side rendering, single page application.
 - In today's applications, the server takes care of sending the **data only** and not how to render (or re-render) the DOM, when receiving requests.
 - This way, the same server can be used for mobile devices as well.
+
+### ⚠️ React is just a UI library. It _doesn't_ provide **routing** for us.
+
+...unlike Angular, which is a framework and provides it for us...
