@@ -76,3 +76,8 @@
   ```
   npm add react-router-dom
   ```
+
+### `withRouter()` ⚡️
+
+- a higher order function that takes a component and modifies it in some way (powered-up component).
+- the component has now access to router related information.
