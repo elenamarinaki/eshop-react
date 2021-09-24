@@ -70,3 +70,5 @@
 ### ⚠️ React is just a UI library. It _doesn't_ provide **routing** for us.
 
 ...unlike Angular, which is a framework and provides it for us...
+
+- The browser provides **_History API_**.
