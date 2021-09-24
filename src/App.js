@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router';
+import { Switch, Route } from 'react-router';
 
 import './App.css';
 
@@ -14,8 +14,11 @@ const HatsPage = () => (
 function App() {
   return (
     <div>
-      <Route exact path='/' component={HomePage} />
-      <Route exact path='/hats' component={HatsPage} />
+      {/* with switch, we don't need the 'exact' keyword */}
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/hats' component={HatsPage} />
+      </Switch>
     </div>
   );
 }
