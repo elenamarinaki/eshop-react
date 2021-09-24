@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router';
+import { Switch, Route, Link } from 'react-router-dom';
 
 import './App.css';
 
@@ -17,6 +17,8 @@ const HatsPage = (props) => {
 function App() {
   return (
     <div>
+      {/* <Link to='/hats'>Hats</Link> */}
+
       {/* with switch, we don't need the 'exact' keyword */}
       <Switch>
         <Route exact path='/' component={HomePage} />
