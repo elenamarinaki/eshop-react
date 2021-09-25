@@ -5,17 +5,6 @@ import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 
-const HatsPage = (props) => {
-  console.log(props);
-  // <button onClick={() => props.history.push('/hats')}>Hats</button>;
-
-  return (
-    <div>
-      <h1>HATS PAGE</h1>
-    </div>
-  );
-};
-
 function App() {
   return (
     <div>
@@ -31,3 +20,14 @@ function App() {
 }
 
 export default App;
+
+// const HatsPage = (props) => {
+//   console.log(props);
+//   // <button onClick={() => props.history.push('/hats')}>Hats</button>;
+
+//   return (
+//     <div>
+//       <h1>HATS PAGE</h1>
+//     </div>
+//   );
+// };
