@@ -81,3 +81,11 @@
 
 - a higher order function that takes a component and modifies it in some way (powered-up component).
 - the component has now access to router related information.
+
+### Importing SVG in React 🖼️
+
+- Syntax:
+  ```
+  import { ReactComponent as Logo }
+  ```
+- This is _special_ to React. The `ReactComponent` tells `Create React App` that we want a **component that renders svg, rather than its filename**.
